@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="13dp"
+        android:background="@drawable/linear_bg2">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/name_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:layout_marginLeft="18dp"
+                android:text="John Doe"
+                android:fontFamily="@font/roboto_bold"
+                android:textColor="#47A76A"/>
+            <TextView
+                android:id="@+id/email_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#B7B7B7"
+                android:textSize="12dp"
+                android:layout_marginLeft="18dp"
+                android:text="john@gmail.com"
+                android:layout_marginTop="2dp"
+                android:fontFamily="@font/roboto"/>
+            <TextView
+                android:id="@+id/relation_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#B7B7B7"
+                android:textSize="12dp"
+                android:layout_marginLeft="18dp"
+                android:text="Sister"
+                android:layout_marginTop="2dp"
+                android:fontFamily="@font/roboto"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="17dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="24dp">
+
+            <ImageView
+                android:id="@+id/icon"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_create_user"/>
+            <ImageView
+                android:id="@+id/delete"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="8dp"
+                android:src="@drawable/ic_delete"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">My Guardian Angels</string>
+
+
+    <!--    <string name="facebook_app_id">962279787799136</string>-->
+    <string name="facebook_app_id">677320213488998</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">4bd89220026a708b89ac87d12f629917</string>
+
+    <string-array name="User_Type">
+        <item>Angel</item>
+        <item>Guardian</item>
+    </string-array>
+    <string-array name="country_array">
+        <item>Country</item>
+        <item>Pakistan</item>
+        <item>China</item>
+        <item>UAE</item>
+    </string-array>
+    <string-array name="city_array">
+        <item>City</item>
+        <item>Rawalpindi</item>
+        <item>Shinghai</item>
+        <item>Wuhan</item>
+        <item>Islamabad</item>
+        <item>Dubai</item>
+        <item>Sharjah</item>
+    </string-array>
+
+    <string-array name="time">
+        <item>2 mins</item>
+        <item>4 mins</item>
+        <item>6 mins</item>
+        <item>8 mins</item>
+        <item>10 mins</item>
+    </string-array>
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string name="welcome">Welcome Back!</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forget">FORGOT PASSWORD ?</string>
+    <string name="gnew">Get New !</string>
+    <string name="login">Log in</string>
+    <string name="have_account">DONT HAVE AN ACCOUNT ?</string>
+    <string name="sign_up"> SIGN UP !</string>
+    <string name="eng">ENGLISH</string>
+    <string name="span">SPANISH</string>
+    <string name="portg">PORTUGUESE</string>
+    <string name="or">OR</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

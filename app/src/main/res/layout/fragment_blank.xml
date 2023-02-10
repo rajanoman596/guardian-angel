@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.BlankFragment">
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/ic_writer_blogger_author_female"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:background="@drawable/btn_bg"
+        android:layout_margin="@dimen/_20sdp"
+        android:gravity="center"
+        android:text="Save"
+        android:textColor="@color/white"/>
+
+
+
+
+
+</LinearLayout>

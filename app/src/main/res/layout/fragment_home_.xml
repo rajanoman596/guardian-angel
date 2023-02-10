@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragments.Home_Fragment1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/bg1"/>
+        <TextView
+            android:id="@+id/record_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Record"
+            android:textColor="@color/white"
+            android:fontFamily="@font/roboto_bold"
+            android:textSize="25dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="70dp"/>
+    </RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Record Your Evidence Securely &amp; Privately"
+        android:textColor="#707070"
+        android:textSize="12dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/roboto"
+        android:layout_marginLeft="30dp"/>
+    <Button
+        android:id="@+id/video_evidence_btn"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/btn_bg"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:text="Video Recording Evidence"
+        android:textSize="15dp"
+        android:fontFamily="@font/roboto"
+        android:textAllCaps="false"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/white"/>
+
+        <ProgressBar
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/load_video"/>
+    <Button
+        android:id="@+id/audio_evidence_btn"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/btn_bg"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:text="Audio Recording Evidence"
+        android:textSize="15dp"
+        android:fontFamily="@font/roboto"
+        android:textAllCaps="false"
+        android:layout_marginTop="26dp"
+        android:textColor="@color/white"/>
+
+        <ProgressBar
+            android:visibility="gone"
+            android:layout_gravity="center"
+             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/load_audio"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your default recording time is 120 second you can increase or decrease this time period from the profile setting."
+        android:textColor="#707070"
+        android:textSize="12dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/roboto"/>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:layout_marginRight="8dp"
+       android:layout_marginLeft="8dp"
+       android:layout_marginTop="12dp"
+       android:background="@drawable/linear_layout_bg">
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="10dp"
+           android:layout_marginLeft="16dp"
+           android:text="Tips"
+           android:fontFamily="@font/roboto_bold"
+           android:textColor="@color/pinkColor"
+           android:textSize="14dp"/>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="10dp"
+           android:layout_marginLeft="16dp"
+           android:text="\u2022 Please use above option when you are in trouble to record evidence. To record video evidence press video recording it will record both video as well as audio.if you want to record audio evidence only then press on audio recording ."
+           android:fontFamily="@font/roboto"
+           android:textColor="#707070"
+           android:textSize="12dp"/>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="8dp"
+           android:layout_marginLeft="16dp"
+           android:text="\u2022 If the user's device is locked during the video recording process the evidence will be lost . but if the user's device is locked during the audio recording process the evidence will not be affected ."
+           android:fontFamily="@font/roboto"
+           android:textColor="#707070"
+           android:textSize="12dp"/>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="8dp"
+           android:layout_marginLeft="16dp"
+           android:text="\u2022 Before making evidence make sure your GPS is turned on."
+           android:fontFamily="@font/roboto"
+           android:textColor="#707070"
+           android:layout_marginBottom="15dp"
+           android:textSize="12dp"/>
+
+
+
+   </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp">
+        <TextView
+            android:id="@+id/textview1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
+            android:textSize="13dp"
+            android:textColor="@color/pinkColor"
+            android:text="@string/eng"/>
+
+        <TextView
+            android:id="@+id/textview2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
+            android:textSize="13dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="30dp"
+            android:layout_toRightOf="@+id/eng_txt"
+            android:textColor="@color/hintColor"
+            android:text="@string/span"/>
+        <TextView
+            android:id="@+id/textview3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
+            android:textSize="13dp"
+            android:textColor="@color/hintColor"
+            android:text="@string/portg"/>
+
+
+    </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text5"
+            android:visibility="gone"
+            android:text="path"/>
+    </LinearLayout>
+
+</RelativeLayout>
